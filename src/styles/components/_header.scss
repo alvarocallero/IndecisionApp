@@ -1,0 +1,20 @@
+.header {
+    background: $off-black;
+    color: $off-white;
+    margin-bottom: $xl-size;
+    padding:$m-size;
+}
+
+// This style is named BEM (Block Element Modifier)
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+    color: orange;
+}
+
+.header__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin:0;
+}
